@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Image.asset('assets/images/hamburger.png'),
+        leading: Image.asset('assets/images/bar.png'),
         actions: [
           IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.cart))
         ],
