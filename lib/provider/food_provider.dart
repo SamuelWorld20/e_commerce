@@ -170,6 +170,202 @@ class FoodProvider extends ChangeNotifier {
         category: Category.side_dish,
         aboutFruit:
             'Dodo is a fried plantain dish that is sweet and soft. It is made by peeling and slicing ripe plantains, sprinkling some salt on them, and frying them in hot oil until golden brown. It can be eaten as a snack or as a accompaniment to rice, beans, or stew.'),
+    Food(
+        name: 'Amala and Abula',
+        price: '700',
+        id: 'F011',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.peM3GcvXmdr57VPxpMswXQHaE6?w=233&h=180&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'yam flour (amala)',
+          'gbegiri (bean soup)',
+          'ewedu leaves',
+          'meat',
+          'fish',
+          'pepper',
+          'onion',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.main_course,
+        aboutFruit:
+            'Amala and Abula is a traditional Yoruba dish. Amala is made from yam flour and is often served with a combination of gbegiri (bean soup) and ewedu soup. It is typically enjoyed with assorted meat and fish.'),
+    Food(
+        name: 'Pounded Yam and Egusi Soup',
+        price: '750',
+        id: 'F012',
+        imageUrl: 'https://bing.com/th?id=OSK.7a5e5bd951fc81c2a1d93cf23a6c2b82',
+        ingredients: [
+          'yam',
+          'egusi seeds',
+          'spinach',
+          'palm oil',
+          'meat',
+          'fish',
+          'pepper',
+          'onion',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.main_course,
+        aboutFruit:
+            'Pounded Yam and Egusi Soup is a popular Nigerian dish. Pounded yam is served with a thick soup made from melon seeds (egusi), vegetables, and assorted meat or fish.'),
+    Food(
+        name: 'Jollof Spaghetti',
+        price: '550',
+        id: 'F013',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.B5RwnPHWSnOo6vo4qgtriwHaE5?w=241&h=180&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'spaghetti',
+          'tomato sauce',
+          'onion',
+          'vegetable oil',
+          'thyme',
+          'curry powder',
+          'pepper',
+          'salt',
+        ],
+        category: Category.main_course,
+        aboutFruit:
+            'Jollof Spaghetti is a delicious variation of the classic Jollof Rice. It is made by cooking spaghetti with tomato sauce, spices, and sometimes vegetables or meat.'),
+    Food(
+        name: 'Peppered Snail',
+        price: '600',
+        id: 'F014',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.KQkCXTvzGVAxVYEapKdUzgHaEK?w=331&h=186&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'snail',
+          'pepper',
+          'onion',
+          'vegetable oil',
+          'garlic',
+          'ginger',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.snack,
+        aboutFruit:
+            'Peppered Snail is a spicy and flavorful appetizer made by cooking snails in a peppery sauce. It is often enjoyed as a delicacy or side dish.'),
+    Food(
+        name: 'Efo Egusi',
+        price: '700',
+        id: 'F015',
+        imageUrl:
+            'https://th.bing.com/th?id=OSK.mmcoldK3rerWTgzoRvw3nOK0oU5AAGERtkd3F4dcJwyek3ts&w=130&h=100&c=8&o=6&pid=SANGAM',
+        ingredients: [
+          'melon seeds (egusi)',
+          'spinach',
+          'palm oil',
+          'pepper',
+          'onion',
+          'meat',
+          'fish',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.soup,
+        aboutFruit:
+            'Efo Egusi is a delicious vegetable soup made with melon seeds (egusi), spinach, and assorted meat or fish. It is often served with fufu or rice.'),
+    Food(
+        name: 'Coconut Jollof Rice',
+        price: '650',
+        id: 'F016',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.WEcFX1vbbVsBklMI6uMLggHaFh?w=204&h=180&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'rice',
+          'coconut milk',
+          'tomato paste',
+          'onion',
+          'vegetable oil',
+          'thyme',
+          'curry powder',
+          'pepper',
+          'salt',
+        ],
+        category: Category.main_course,
+        aboutFruit:
+            'Coconut Jollof Rice is a flavorful variation of Jollof Rice made by cooking rice with coconut milk, tomato sauce, and spices.'),
+    Food(
+        name: 'Ogbono Soup',
+        price: '700',
+        id: 'F017',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.nCBPuh0-9PExkNGUiEunkAHaE3?pid=ImgDet&rs=1',
+        ingredients: [
+          'ogbono seeds',
+          'spinach',
+          'palm oil',
+          'meat',
+          'fish',
+          'pepper',
+          'onion',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.soup,
+        aboutFruit:
+            'Ogbono Soup is a thick and hearty soup made from ogbono seeds, spinach, and assorted meat or fish. It is often served with fufu or rice.'),
+    Food(
+        name: 'Akamu and Moin Moin',
+        price: '500',
+        id: 'F018',
+        imageUrl:
+            'https://th.bing.com/th/id/R.d084384b1f954e6e0ce85190f8b5d716?rik=f9t5mNFz6nIIEQ&riu=http%3a%2f%2fmyactivekitchen.com%2fwp-content%2fuploads%2f2016%2f05%2fmoi-moi-3.jpg&ehk=PSt3QA%2b343t7YkBEoS68rwuRKSq0wvTbleaX3GVQOkg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1',
+        ingredients: [
+          'akamu (pap)',
+          'black-eyed beans',
+          'onion',
+          'pepper',
+          'egg',
+          'vegetable oil',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.breakfast,
+        aboutFruit:
+            'Akamu and Moin Moin is a classic Nigerian breakfast combination. Akamu, also known as pap, is often served with steamed bean pudding (moin moin).'),
+    Food(
+        name: 'Banga Soup',
+        price: '750',
+        id: 'F019',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.4SK1rrf6IgMDWNLx-8nvAAHaGy?w=203&h=186&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'palm fruit',
+          'meat',
+          'fish',
+          'pepper',
+          'onion',
+          'vegetable oil',
+          'periwinkle',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.soup,
+        aboutFruit:
+            'Banga Soup, also known as Ofe Akwu, is a traditional Nigerian soup made from palm fruit extract, meat, and fish. It is often served with starch or rice.'),
+    Food(
+        name: 'Yam and Plantain Porridge',
+        price: '600',
+        id: 'F020',
+        imageUrl:
+            'https://th.bing.com/th/id/OIP.gRWjiuu9761OCJ2XFb6b3wHaEK?w=271&h=180&c=7&r=0&o=5&pid=1.7',
+        ingredients: [
+          'yam',
+          'plantains',
+          'vegetable oil',
+          'pepper',
+          'onion',
+          'fish',
+          'seasoning cubes',
+          'salt',
+        ],
+        category: Category.main_course,
+        aboutFruit:
+            'Yam and Plantain Porridge is a tasty and filling dish made by cooking yam and plantains in a flavorful broth with fish and spices.'),
   ];
 
   List<Food> get food {

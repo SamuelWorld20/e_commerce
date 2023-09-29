@@ -1,7 +1,7 @@
 import 'package:currency_symbols/currency_symbols.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+// import 'package:e_commerce/provider/food_provider.dart';
 import 'package:e_commerce/config/colors.dart';
 
 class FoodCard extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:e_commerce/widgets/food_card.dart';
-import 'package:e_commerce/provider/food_provider.dart';
+// import 'package:e_commerce/widgets/food_card.dart';
+// import 'package:e_commerce/provider/food_provider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key});
