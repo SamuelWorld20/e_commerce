@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:e_commerce/widgets/food_card.dart';
+import 'package:e_commerce/provider/food_provider.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({Key? key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Image.asset('assets/bar.png'), // Replace with your image path
+        leading: Image.asset('assets/bar.png'),
         actions: [
           IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.cart))
         ],

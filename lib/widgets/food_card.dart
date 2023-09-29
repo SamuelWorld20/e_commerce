@@ -1,4 +1,4 @@
-// import 'package:currency_symbols/currency_symbols.dart';
+import 'package:currency_symbols/currency_symbols.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
