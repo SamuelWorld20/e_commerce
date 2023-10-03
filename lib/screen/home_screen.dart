@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-// import 'package:e_commerce/widgets/food_card.dart';
-// import 'package:e_commerce/provider/food_provider.dart';
+import 'login_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key});
@@ -12,7 +11,22 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         leading: Image.asset('assets/bar.png'),
         actions: [
-          IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.cart))
+          FutureBuilder(
+            future: Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) => const LoginScreen(),
+              ),
+            ),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return CircularProgressIndicator();
+              } else {
+                return IconButton(
+                    onPressed: () {}, icon: const Icon(CupertinoIcons.cart));
+              }
+            },
+          ),
+          // IconButton(onPressed: () {}, icon: const Icon(CupertinoIcons.cart))
         ],
       ),
       body: Column(

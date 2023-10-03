@@ -3,6 +3,7 @@ import 'config/theme.dart';
 import 'splash_screen.dart';
 import 'provider/food_provider.dart';
 import 'package:provider/provider.dart';
+import 'screen/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
