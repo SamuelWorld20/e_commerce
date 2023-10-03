@@ -1,8 +1,7 @@
 import 'dart:async';
-
+import 'package:e_commerce/screen/login_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'intro_screen.dart';
+// import 'intro_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     _timer = Timer(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) {
-        return const HomeScreen();
+        return const LoginScreen();
       }));
     });
   }
