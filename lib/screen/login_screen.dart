@@ -109,11 +109,10 @@ class _LoginScreenState extends State<LoginScreen> {
                           width: double.infinity,
                           child: FilledButton(
                             style: FilledButton.styleFrom(
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15)),
-                              // padding: const EdgeInsets.symmetric(
-                              // vertical: 20, horizontal: 10),
-                            ),
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)),
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 20, horizontal: 10)),
                             onPressed: () {},
                             child: const Text('Login'),
                           ),
